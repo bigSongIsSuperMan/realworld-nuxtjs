@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js add gloabl pm2
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js init
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/Users/songyukun/Library/apache-maven/apache-maven-3.6.3/bin:/usr/X11R6/bin:.:/usr/local/bin/:/usr/local/mysql/bin:/Users/songyukun/Library/apache-maven/apache-maven-3.6.3/bin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/X11R6/bin:.:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/Users/songyukun/Library/apache-maven/apache-maven-3.6.3/bin:/usr/X11R6/bin:.:/usr/local/bin/:/usr/local/bin/
@@ -14,17 +14,17 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/gloabl: Not found
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:66975:18)
-      at Request.self.callback (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:140727:22)
-      at Request.emit (events.js:223:5)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:141699:10)
-      at Request.emit (events.js:223:5)
-      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:141621:12)
-      at Object.onceWrapper (events.js:312:28)
-      at IncomingMessage.emit (events.js:228:7)
-      at endReadableNT (_stream_readable.js:1185:12)
-      at processTicksAndRejections (internal/process/task_queues.js:81:21)
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:136987:13)
+      at Interface.emit (events.js:223:5)
+      at Interface._ttyWrite (readline.js:885:16)
+      at ReadStream.onkeypress (readline.js:191:10)
+      at ReadStream.emit (events.js:223:5)
+      at emitKeys (internal/readline/utils.js:433:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1151:36)
+      at ReadStream.emit (events.js:223:5)
+      at addChunk (_stream_readable.js:309:12)
 
 npm manifest: 
   {
